@@ -350,10 +350,10 @@ ul#nav li.current a { color: #F06000; }
     -moz-animation: mongodb 2s ease;
     -webkit-animation: mongodb 2s ease;
 }
-.redis {
-    width: 15%;
-    -moz-animation: redis 2s ease;
-    -webkit-animation: redis 2s ease;
+.html {
+    width: 75%;
+    -moz-animation: html 2s ease;
+    -webkit-animation: html 2s ease;
 }
 .memcached {
     width: 10%;
