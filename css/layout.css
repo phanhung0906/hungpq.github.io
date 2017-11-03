@@ -36,7 +36,7 @@ header {
     background: #161415 url(../images/header-background.jpg) no-repeat top center;
     background-size: cover !important;
     -webkit-background-size: cover !important;
-    text-align: center;
+    text-align: right;
     overflow: hidden;
 }
 
@@ -65,10 +65,10 @@ header .banner-text h1 {
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-    font: 18px/1.9em 'librebaskerville-regular', serif;
-    color: #A8A8A8;
+    font: 20px/1.9em 'librebaskerville-regular', serif;
+    color: #d4d2d2;
     margin: 0 auto;
-    width: 70%;
+    width: 75%;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
@@ -207,9 +207,10 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
+    object-fit: cover;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -326,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .php {
-    width: 60%;
+    width: 95%;
     -moz-animation: php 2s ease;
     -webkit-animation: php 2s ease;
 }
