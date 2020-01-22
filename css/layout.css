@@ -260,7 +260,6 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
 
 .education, .work {
     margin-bottom: 48px;
@@ -269,7 +268,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
     font: 16px/24px 'librebaskerville-italic', serif;
-    color: #6E7881;
+    color: #4f5254;
     margin-bottom: 18px;
     margin-top: 9px;
 }
@@ -332,7 +331,7 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: php 2s ease;
 }
 .python {
-    width: 20%;
+    width: 50%;
     -moz-animation: python 2s ease;
     -webkit-animation: python 2s ease;
 }
